@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2019-08-22 13:30:44 +0000
-categories: jekyll update
+title:  "Do problema à solução, usando HABTM - Ruby On Rails"
+date:   2019-08-26 12:00:44 +0000
+categories: artigos
 ---
 
 # Introdução
