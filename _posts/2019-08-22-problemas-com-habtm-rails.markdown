@@ -88,7 +88,7 @@ Bom, vimos que nem tudo são flores, mas há sempre luz no fim do túnel rs.
 
 No projeto que participo encontramos duas soluções para isso, depois de muitas pesquisas, lendo muita linha de código e de muita ajuda do stackoverflow (salve grande mestre rs). Essas soluções foram encontradas em tempos diferentes do projeto, dai vou mostrar agora pela ordem em que implementamos. Onde a segunda substitui a primeira solução dada. Mas isso não tira o mérito dela em ;)
 
-## Deferring
+# Deferring
 [Deferring](https://github.com/robinroestenburg/deferring) é uma gem que basicamente sobrescreve o comportamento padrão adotado para as ```ActiveRecord_Associations_CollectionProxy``` que a classe que rege o comportamento das associações que estamos tratando.
 Ela promete literalmente resolver nosso problema citado acima:
 
@@ -108,7 +108,7 @@ Então porque deixamos de usar e adotamos outra solução? Por alguns motivos be
 
 Conclusão, a gem funciona muito bem para a proposta dela e a decisão de sairmos dela foi bem própria do projeto.
 
-## Solução caseira
+# Solução caseira
 
 Depois de um tempo de pesquisa de como poderíamos contornar esse "problema" usando o que o rails já nos oferece com uso de por exemplo:
 
@@ -244,7 +244,7 @@ Porque ao instanciar o objeto, a associação já pode estar vazia. E ao salvar 
 
 Bom, então é isso ai pessoal, espero que esta implementação e tutorial lhes ajude! ^^
 
-## Contribuidores
+# Contribuidores
 - [@marciojg](https://github.com/marciojg)
 - [@pedrofurtado](https://github.com/pedrofurtado)
 - [@WillRadi](https://github.com/WillRadi)
@@ -252,12 +252,12 @@ Bom, então é isso ai pessoal, espero que esta implementação e tutorial lhes 
 
 # Referências e links complementares
 
-- https://github.com/rails/rails/blob/v5.2.3/activerecord/lib/active_record/associations/association.rb
-- https://github.com/rails/rails/blob/v6.0.0/activerecord/lib/active_record/associations/association.rb
-- https://guides.rubyonrails.org/association_basics.html#methods-added-by-has-and-belongs-to-many-collection-objects
-- https://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html
-- https://stackoverflow.com/questions/38616387
-- https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html
-- https://gist.github.com/marciojg/f158776a205770db6a14656ed5f23326
-- https://www.toptal.com/ruby/ruby-metaprogramming-cooler-than-it-sounds
-- https://blog.eq8.eu/til/metaprogramming-ruby-examples.html
+- [https://github.com/rails/rails/blob/v5.2.3/activerecord/lib/active_record/associations/association.rb](https://github.com/rails/rails/blob/v5.2.3/activerecord/lib/active_record/associations/association.rb)
+- [https://github.com/rails/rails/blob/v6.0.0/activerecord/lib/active_record/associations/association.rb](https://github.com/rails/rails/blob/v6.0.0/activerecord/lib/active_record/associations/association.rb)
+- [https://guides.rubyonrails.org/association_basics.html#methods-added-by-has-and-belongs-to-many-collection-objects](https://guides.rubyonrails.org/association_basics.html#methods-added-by-has-and-belongs-to-many-collection-objects)
+- [https://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html](https://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html)
+- [https://stackoverflow.com/questions/38616387](https://stackoverflow.com/questions/38616387)
+- [https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html](https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html)
+- [https://gist.github.com/marciojg/f158776a205770db6a14656ed5f23326](https://gist.github.com/marciojg/f158776a205770db6a14656ed5f23326)
+- [https://www.toptal.com/ruby/ruby-metaprogramming-cooler-than-it-sounds](https://www.toptal.com/ruby/ruby-metaprogramming-cooler-than-it-sounds)
+- [https://blog.eq8.eu/til/metaprogramming-ruby-examples.html](https://blog.eq8.eu/til/metaprogramming-ruby-examples.html)
