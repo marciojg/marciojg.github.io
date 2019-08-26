@@ -245,9 +245,9 @@ Porque ao instanciar o objeto, a associação já pode estar vazia. E ao salvar 
 Bom, então é isso ai pessoal, espero que esta implementação e tutorial lhes ajude! ^^
 
 ## Contribuidores
-- https://github.com/marciojg
-- https://github.com/pedrofurtado
-- https://github.com/WillRadi
+- [@marciojg](https://github.com/marciojg)
+- [@pedrofurtado](https://github.com/pedrofurtado)
+- [@WillRadi](https://github.com/WillRadi)
 
 
 # Referências e links complementares
