@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Do problema à solução, usando HABTM - Ruby On Rails"
+title:  "Do problema à solução, com HABTM - Ruby On Rails"
 date:   2019-08-26 12:00:44 +0000
 categories: artigos
 ---
