@@ -6,3 +6,6 @@ https://onextrapixel.com/start-jekyll-blog-github-pages-free/
 
 # Adicionar como complemento:
 https://disqus.com/features/engage/
+
+# Tema usado:
+- [https://github.com/thelehhman/plainwhite-jekyll](https://github.com/thelehhman/plainwhite-jekyll)
