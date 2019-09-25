@@ -2,7 +2,7 @@
  ~> bundle install && jekyll serve --watch
 https://onextrapixel.com/start-jekyll-blog-github-pages-free/
 
-- Objetivo = ficar igual a esse: https://nandovieira.com.br/relacionamento-muitos-para-muitos-com-activerecord-no-rails
+- Objetivo = ficar igual a esse: https://nandovieira.com.br/relacionamento-muitos-para-muitos-com-activerecord-no-rails e esse https://anabneri.github.io/anabneri.github.io/
 
 # Adicionar como complemento:
 https://disqus.com/features/engage/
