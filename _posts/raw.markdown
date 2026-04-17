@@ -1,0 +1,8 @@
+- mais pods escala horizontal maior sua superficie de risco
+- sabe quando tem meia duzias de pessoas debruçadas num prolema e chega alguem de fora e do nada fala: "Ah, vcs ja tentarram fazer isso?" e a resposta são várias caras de "como não pensamos nisso antes"?
+- minha ex com o claudinho no fix do graceful shutdown
+- 3 pontos principais do graceful: a aplicação, a máquina (container) e o orquestrador - olhamos 2 deles, mas faltaou um
+- faltou um pq "era o mais óbio" e automaticamente pensamos que tava funcionando, mas não tava
+- algumas iterações rolaram - trocar anos por semana?
+- vincular ao comportamento do sidekiq
+- o graceful shutdown é o processo de desligar uma aplicação de forma controlada, garantindo que
